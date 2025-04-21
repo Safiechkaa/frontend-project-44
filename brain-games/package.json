@@ -1,0 +1,42 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.1.0",
+  "description": "[![Actions Status](https://github.com/Safiechkaa/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Safiechkaa/frontend-project-44/actions)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Safiechkaa/frontend-project-44.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Safiechkaa/frontend-project-44/issues"
+  },
+  "homepage": "https://github.com/Safiechkaa/frontend-project-44#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "readline-sync": "^1.4.10"
+  },
+  "bin": {
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js",
+    "brain-calc": "bin/brain-calc.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-define-config": "^2.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.0.0"
+  }
+}
