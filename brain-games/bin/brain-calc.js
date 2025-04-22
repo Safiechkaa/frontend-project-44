@@ -30,5 +30,5 @@ const runCalcGame = () => {
   runGame(getQuestion);
 };
 
-runCalcGame();
+runCalcGame(); 
 
