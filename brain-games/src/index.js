@@ -23,3 +23,4 @@ export const runGame = (getQuestion) => {
   }
   console.log(`Congratulations, ${name}!`);
 };
+
